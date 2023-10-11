@@ -80,7 +80,7 @@ public class BengkelService {
 			}
 		}
 
-		BookingOrder bookingOrder = new BookingOrder(generateBookingOrderId(customer.getCustomerId()), customer, customerService, metodePembayaran, totalServicePrice, 0);
+		BookingOrder bookingOrder = new BookingOrder(generateBookingOrderId(customer.getCustomerId()), customer, customerService, metodePembayaran, totalServicePrice, 0, 0);
 		bookingOrder.calculatePayment();
 		listBookingOrders.add(bookingOrder);
 
