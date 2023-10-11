@@ -18,6 +18,7 @@ public class BookingOrder implements IBengkelPayment{
 	private String paymentMethod;
 	private double totalServicePrice;
 	private double totalPayment;
+	private double contoh;
 	
 	@Override
 	public void calculatePayment() {
